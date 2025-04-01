@@ -58,7 +58,7 @@ export const App: React.FC = () => {
     sortField,
     reversed,
   });
-  const reset = () => {
+  const hadleReset = () => {
     setSortField('');
     setReversed(false);
   };
@@ -99,7 +99,7 @@ export const App: React.FC = () => {
           <button
             type="button"
             className="button is-danger is-light"
-            onClick={reset}
+            onClick={hadleReset}
           >
             Reset
           </button>
